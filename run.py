@@ -5,7 +5,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-@app.route("/")  # This forward slash is for the homepage
+@app.route("/")  # This blank forward slash is for the homepage
 def index():
     return render_template("index.html")
 
